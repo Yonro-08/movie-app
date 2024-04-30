@@ -1,0 +1,60 @@
+.blog article {
+	height: 100%;
+	padding: 30px;
+	background: transparent;
+	box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+	transition: all 0.5s;
+	overflow: hidden;
+}
+
+.blog article:hover {
+	box-shadow: 0 0 30px rgba(255, 255, 255, 0.6);
+}
+
+.blog .post-img {
+	max-height: 240px;
+	margin: -30px -30px 15px -30px;
+	overflow: hidden;
+}
+
+.blog .post-category {
+	margin-bottom: 10px;
+	font-size: 1rem;
+	font-weight: 400;
+	color: #ffffff;
+}
+
+.blog .title {
+	padding: 0;
+	margin: 0 0 20px 0;
+	font-size: 1.4rem;
+	font-weight: 400;
+}
+
+.blog .title a {
+	color: #ffffff;
+	transition: all 0.3s;
+	text-decoration: none;
+}
+
+.blog .title a:hover {
+	color: var(--primary);
+}
+
+.blog .post-author-img {
+	width: 50px;
+	margin-right: 15px;
+	border-radius: 50%;
+}
+
+.blog .post-author-list {
+	margin-bottom: 5px;
+	color: #ffffff;
+	font-weight: 600;
+}
+
+.blog .post-date {
+	margin-bottom: 0;
+	font-size: 14px;
+	color: #ffffff;
+}

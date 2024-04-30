@@ -1,0 +1,21 @@
+.schedule .filters {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	gap: 10px;
+	margin-top: 50px;
+}
+
+.schedule .filters li {
+	padding: 10px 25px;
+	color: #ffffff;
+	text-transform: uppercase;
+	background: #191919;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+.schedule .filters li:hover,
+.schedule .filters li.active {
+	background: var(--primary);
+}
